@@ -1,0 +1,38 @@
+ change user account/ upload to github/ update github 
+ 
+npx create-next-app@latest
+
+install git
+check git version by git -v
+
+create github account
+create a repository
+
+
+🚀 How to Upload a Project to GitHub
+14.	1. Create a GitHub account at https://github.com (if you don't have one).
+15.	2. Click 'New Repository' and create a new repo with your desired name.
+16.	3. Open your project folder on your computer.
+
+17.	4.  (or open terminal/cmd in the folder).
+18.	5.  git init
+19.	6. Add all files: git add .
+20.	7. Commit your changes: git commit -m "Initial commit"
+22.	9. Link the remote repo: git remote add origin https://github.com/your-username/my-project.git
+23.	10. Set the main branch: git branch -M main
+24.	11. Push your code: git push -u origin main
+
+25.	12. Your project should now be live on GitHub.
+
+update project
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
+install git
+ gh auth login
+ gh auth logout
+git config --global user.name "manoteckproject"
+git config --global user.email "manoteckproject@gmail.com"
+gh auth status
